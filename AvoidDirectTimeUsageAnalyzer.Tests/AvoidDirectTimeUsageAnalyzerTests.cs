@@ -2,7 +2,7 @@
 using Microsoft.CodeAnalysis.Testing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AvoidDirectTimeUsage.Tests;
+namespace AvoidDirectTimeUsageAnalyzer.Tests;
 
 [TestClass]
 public class AvoidDirectTimeUsageAnalyzerTests

@@ -4,9 +4,9 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.Diagnostics;
 using System.Collections.Immutable;
 using System.Runtime.CompilerServices;
-[assembly: InternalsVisibleTo("AvoidDirectTimeUsage.Tests")]
+[assembly: InternalsVisibleTo("AvoidDirectTimeUsageAnalyzer.Tests")]
 
-namespace AvoidDirectTimeUsage;
+namespace AvoidDirectTimeUsageAnalyzer;
 
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
 public class AvoidDirectTimeUsageAnalyzer : DiagnosticAnalyzer
