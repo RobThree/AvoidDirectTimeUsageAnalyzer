@@ -24,7 +24,7 @@
 		<PackageTags>CSharp;Roslyn;Analyzer;CodeAnalisys;Compiler;Diagnostic;Analyzers</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageIcon>logo.png</PackageIcon>
-		
+
 		<!-- The package version is picked up from the git tag in the GitHub publish workflow. -->
 		<!--<PackageVersion>1.0.0</PackageVersion>-->
 
@@ -39,7 +39,7 @@
 		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.13.0" />
 	</ItemGroup>
 
-	
+
 	<ItemGroup>
 		<None Update="logo.png">
 			<PackagePath>\</PackagePath>

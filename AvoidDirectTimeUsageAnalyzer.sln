@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvoidDirectTimeUsageAnalyzer.Vsix", "AvoidDirectTimeUsageAnalyzer.Vsix\AvoidDirectTimeUsageAnalyzer.Vsix.csproj", "{C55DAF1D-7616-401F-B1AA-985106F7632A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FC28EAF1-C519-4182-BC7A-91563EC85799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC28EAF1-C519-4182-BC7A-91563EC85799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC28EAF1-C519-4182-BC7A-91563EC85799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55DAF1D-7616-401F-B1AA-985106F7632A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55DAF1D-7616-401F-B1AA-985106F7632A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55DAF1D-7616-401F-B1AA-985106F7632A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55DAF1D-7616-401F-B1AA-985106F7632A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
