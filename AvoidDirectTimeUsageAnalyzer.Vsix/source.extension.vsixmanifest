@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 	<Metadata>
-		<Identity Id="AvoidDirectTimeUsageAnalyzer.bcb760cc-53be-46e7-a799-3e6d686bcdaf" Version="1.0" Language="en-US" Publisher="RobIII"/>
+		<Identity Id="AvoidDirectTimeUsageAnalyzer.bcb760cc-53be-46e7-a799-3e6d686bcdaf" Version="1.0" Language="en-US" Publisher="RobThree"/>
 		<DisplayName>AvoidDirectTimeUsageAnalyzer</DisplayName>
 		<Description xml:space="preserve">Roslyn-based analysis for code usage of DateTime.Now, DateTime.UtcNow, DateTimeOffset.Now or DateTimeOffset.UtcNow directly. Checks for common usage problems and points them out.</Description>
 		<Icon>logo.png</Icon>
