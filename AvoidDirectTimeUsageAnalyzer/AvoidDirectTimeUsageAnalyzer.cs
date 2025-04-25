@@ -18,7 +18,8 @@ public class AvoidDirectTimeUsageAnalyzer : DiagnosticAnalyzer
         category: "Usage",
         defaultSeverity: DiagnosticSeverity.Warning,
         isEnabledByDefault: true,
-        description: "Accessing DateTime.Now, DateTime.UtcNow, DateTimeOffset.Now or DateTimeOffset.UtcNow reduces testability. Use TimeProvider instead.");
+        description: "Accessing DateTime.Now, DateTime.UtcNow, DateTimeOffset.Now or DateTimeOffset.UtcNow reduces testability. Use TimeProvider instead.",
+        helpLinkUri: "https://learn.microsoft.com/en-us/dotnet/standard/datetime/timeprovider-overview");
 
     public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics => [Rule];
 
@@ -44,8 +45,7 @@ public class AvoidDirectTimeUsageAnalyzer : DiagnosticAnalyzer
         if ((typeName == "System.DateTime" || typeName == "System.DateTimeOffset") &&
             (propertyName == "Now" || propertyName == "UtcNow"))
         {
-            var diagnostic = Diagnostic.Create(Rule, memberAccess.GetLocation(), $"{typeName}.{propertyName}");
-            context.ReportDiagnostic(diagnostic);
+            context.ReportDiagnostic(Diagnostic.Create(Rule, memberAccess.GetLocation(), $"{typeName}.{propertyName}"));
         }
     }
 }
