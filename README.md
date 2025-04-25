@@ -1,6 +1,6 @@
 # ![Logo](https://raw.githubusercontent.com/RobThree/AvoidDirectTimeUsageAnalyzer/main/logo.png) Avoid Direct Time Usage Analyzer
 
-Roslyn-based analysis for code usage of `DateTime.Now`, `DateTime.UtcNow`, `DateTimeOffset.Now` or `DateTimeOffset.UtcNow` directly. Checks for common usage problems and points them out. Available as [Nuget package](https://www.nuget.org/packages/AvoidDirectTimeUsageAnalyzer).
+Roslyn-based analysis for code usage of `DateTime.Now`, `DateTime.UtcNow`, `DateTimeOffset.Now` or `DateTimeOffset.UtcNow` directly. Checks for common usage problems and points them out. Available as [Nuget package](https://www.nuget.org/packages/AvoidDirectTimeUsageAnalyzer) and [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=RobThree.AvoidDirectTimeUsageAnalyzer).
 
 ![Screenshot](https://raw.githubusercontent.com/RobThree/AvoidDirectTimeUsageAnalyzer/main/AvoidDirectTimeUsageAnalyzer/screenshot.png)
 
