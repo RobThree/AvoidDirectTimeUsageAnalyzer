@@ -1,4 +1,4 @@
-# ![Logo](logo.png) AvoidDirectTimeUsageAnalyzer
+# ![Logo](https://raw.githubusercontent.com/RobThree/AvoidDirectTimeUsageAnalyzer/main/logo.png) AvoidDirectTimeUsageAnalyzer
 
 Roslyn-based analysis for code usage of `DateTime.Now`, `DateTime.UtcNow`, `DateTimeOffset.Now` or `DateTimeOffset.UtcNow` directly. Checks for common usage problems and points them out.
 
