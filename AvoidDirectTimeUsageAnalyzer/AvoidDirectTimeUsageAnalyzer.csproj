@@ -16,7 +16,7 @@
 		<Copyright>(c) 2025 Devcorner.nl</Copyright>
 		<PackageProjectUrl>https://github.com/RobThree/AvoidDirectTimeUsageAnalyzer</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageIconUrl>https://raw.githubusercontent.com/RobThree/AvoidDirectTimeUsageAnalyzer/refs/heads/main/AvoidDirectTimeUsage/logo.png</PackageIconUrl>
+		<PackageIconUrl>https://raw.githubusercontent.com/RobThree/AvoidDirectTimeUsageAnalyzer/refs/heads/main/AvoidDirectTimeUsageAnalyzer/logo.png</PackageIconUrl>
 		<DevelopmentDependency>true</DevelopmentDependency>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<RepositoryUrl>https://github.com/RobThree/AvoidDirectTimeUsageAnalyzer.git</RepositoryUrl>
@@ -54,7 +54,7 @@
 
 	<Target Name="_AddAnalyzersToOutput">
 		<ItemGroup>
-			<TfmSpecificPackageFile Include="$(OutputPath)\AvoidDirectTimeUsage.dll" PackagePath="analyzers/dotnet/cs" />
+			<TfmSpecificPackageFile Include="$(OutputPath)\AvoidDirectTimeUsageAnalyzer.dll" PackagePath="analyzers/dotnet/cs" />
 		</ItemGroup>
 	</Target>
 </Project>
